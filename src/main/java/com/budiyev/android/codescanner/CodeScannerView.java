@@ -338,6 +338,10 @@ public final class CodeScannerView extends ViewGroup {
         }
         mViewFinderView.setFrameCornersRadius(radius);
     }
+    
+    public void setScaleType(final int scaleType) {
+        mAutoFocusButton.setScaleType(scaleType);
+    }
 
     /**
      * Get current frame size
